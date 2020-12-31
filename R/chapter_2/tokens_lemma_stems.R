@@ -1,6 +1,7 @@
-# Chapter 2, Exercise 3
+# Chapter 2, Exercise 4
 # Tokenization, Stemming, Lemmatization, Stopword, Post-Staging
 # 30 December 2020
+# R version: 4.0.2
 
 # libraries ----
 library(tidyverse)
@@ -15,6 +16,7 @@ corpus_original <- "Need to finalize the demo corpus which will be used for this
 corpus <- "Need to finalize the demo corpus which will be used for this notebook & should be done soon !!. It should be done by the ending of this month. But will it? This notebook has been run 4 times !!"
 
 # there are many ways of performing these clean-up steps and Base R has some simple and effective tools.
+# to use tidytext you need to have more than one document. Technically, our corpus (above) is just a single document
 
 # lower case the corpus
 corpus_lower <- tolower(corpus) # base R
