@@ -15,4 +15,4 @@ image <- "data/nytimes_20201224.png"
 text_nyt <- tesseract::ocr(image, engine = eng)
 cat(text_nyt)
 
-# package info: https://docs.ropensci.org/tesseract/articles/intro.html
+# package info: https://docs.ropensci.org/tesseract/articles/intro.html 
